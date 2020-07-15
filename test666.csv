@@ -1,0 +1,230 @@
+type,name,summary
+MSG,Call Manager/High,"[            cmdiag.c   1144] =CM= cmdiag_cm_state_info standby_pref 1, active_subs 1"
+MSG,Call Manager/High,"[            cmdiag.c   1146] =CM= cmdiag_cm_state_info main 0, h2 0, h3 0"
+MSG,Call Manager/High,[            cmdiag.c   1154] =CM= cmdiag_cm_state_info main_first 0
+MSG,Call Manager/High,[            cmdiag.c   3155] =CM= cmdiag_cm_state_info_per_subs as_id 1
+MSG,Call Manager/High,[            cmdiag.c   3155] =CM= cmdiag_cm_state_info_per_subs as_id 2
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,[              cmph.c  49209] =CM= Is as_id valid 1
+MSG,Call Manager/High,"[                cm.c   7801] =CM= cm_ph_cmd_oprt_mode(), mode=5"
+MSG,Call Manager/High,"[             cmdbg.c   3411] =CM= CMD alloc u=3632, tsk=ds"
+MSG,Call Manager/High,[             cmdbg.c   3538] =CM= >>CM phcmd 0: 4
+MSG,Call Manager/High,"[            cmtask.c  10750] =CM= reset cmd_ptr->is_reused = 0, cmd_ptr = 0x86e29ff0"
+MSG,Call Manager/High,"[              cmph.c  13042] =CM= cmph_client_cmd_check(), cmd=0, asubs_id=0, ss=0"
+MSG,Call Manager/High,[              cmph.c   3836] =CM= No need to inform PS_Detach to IPAPPS as oprt mode is not ONLINE
+MSG,Call Manager/High,[              cmph.c  23722] =CM= MMSOA: Notify SD - dynamic switch_enabled=0
+MSG,Call Manager/High,[           cmpmprx.c   4152] =CM= PMPRX<< CM: SYS_SEL_PREF asubs_id 0
+MSG,Call Manager/High,[           cmpmprx.c   4164] =CM= PMPRX: New preferences have no effect on policy
+MSG,Call Manager/High,[              cmph.c  48436] =CM= sub 0 TOT: num_rat : 6
+MSG,Call Manager/High,[              cmph.c  48441] =CM= sub 0 TOT: acq_sys_mode[0] = 9
+MSG,Call Manager/High,[              cmph.c  48441] =CM= sub 0 TOT: acq_sys_mode[1] = 5
+MSG,Call Manager/High,[              cmph.c  48441] =CM= sub 0 TOT: acq_sys_mode[2] = 3
+MSG,Call Manager/High,[              cmph.c  48441] =CM= sub 0 TOT: acq_sys_mode[3] = 2
+MSG,Call Manager/High,[              cmph.c  48441] =CM= sub 0 TOT: acq_sys_mode[4] = 4
+MSG,Call Manager/High,[              cmph.c  48441] =CM= sub 0 TOT: acq_sys_mode[5] = 11
+MSG,Call Manager/High,"[              cmph.c  15446] =CM= Reload PH settings:mode_pref 39, hybr_pref 1, srv_domain 2"
+MSG,Call Manager/High,[              cmph.c  15447] =CM= network_sel_mode_pref 0
+MSG,Call Manager/High,"[              cmph.c  17280] =CM= go online cdma 0, gwl 0"
+MSG,Call Manager/High,"[              cmph.c  17284] =CM= go online hybr_gw 0, hybr_gw3 0"
+MSG,Call Manager/High,[              cmph.c  17467] =CM= LPM to ONLINE. ph_ptr PLMN and CSG ID reset
+MSG,Call Manager/High,"[              cmph.c  17495] =CM= Online pref: mode_pref 39, srv_domain 2, net_sel_mode 0"
+MSG,Call Manager/High,"[              cmph.c  42677] =CM= Calling cmph_force_pref_on_the_fly(), ss=4, force_reason=0,act_type=18"
+MSG,Call Manager/High,"[              cmph.c  42679] =CM= Calling cmph_force_pref_on_the_fly(), act_update_reas=3, net_sel_pref=0"
+MSG,Call Manager/High,[              cmph.c   6273] =CM=  net_sel_mode 0 --> orig_mode 0
+MSG,Call Manager/High,"[              cmph.c  42910] =CM= cmph_force_pref_on_the_fly(),ss=4,act_type=18,orig_mode(computed new)=0"
+MSG,Call Manager/High,[              cmph.c  42952] =CM= Update data call pri act_update_reas = 3
+MSG,Call Manager/High,[            cmtask.c   6285] =CM= cmtask_change_act_priority act_type 10 ss 0 new_priority 231
+MSG,Call Manager/High,[            cmtask.c   6285] =CM= cmtask_change_act_priority act_type 10 ss 0 new_priority 231
+MSG,Call Manager/High,"[              cmph.c  42991] =CM= cmph_force_pref_on_the_fly(): ph_orig_top_ptr->orig->user_mode_pref = 39, act_update_reas=3"
+MSG,Call Manager/High,"[              cmph.c  42994] =CM= cmph_force_pref_on_the_fly():mode_pref=39, orig_mode_pref=39"
+MSG,Call Manager/High,"[              cmph.c  43315] =CM= Forced per user request, ss 4 act_update_reas 3,ph_orig_top_ptr->orig->user_mode_pref = 39 "
+MSG,Call Manager/High,[            cmtask.c   5056] =CM= cmtask_orig_para_delete act_type 18 act_id -787654616 ss 0
+MSG,Call Manager/High,[            cmtask.c   5229] =CM= cmtask_orig_para_insert act_type 18 act_id -787654616 ss 0
+MSG,Call Manager/High,[            cmtask.c   5056] =CM= cmtask_orig_para_delete act_type 18 act_id -787654616 ss 1
+MSG,Call Manager/High,[            cmtask.c   5229] =CM= cmtask_orig_para_insert act_type 18 act_id -787654616 ss 1
+MSG,Call Manager/High,[              cmph.c  43429] =CM= is_hybr_1_top_ptr_changed=1 main 1
+MSG,Call Manager/High,[              cmph.c  43431] =CM= cmph_force_pref_on_the_fly(): ph_orig_top_ptr->orig->user_mode_pref = 39
+MSG,Call Manager/High,"[              cmph.c  43466] =CM= is_top_ptr_changed=0,is_main_top_ptr_changed=1,is_hybr_1_top_ptr_changed=1"
+MSG,Call Manager/High,[              cmph.c  43468] =CM= is_hybr_2_top_ptr_changed=0
+MSG,Call Manager/High,[              cmph.c  28661] =CM= cmph_is_new_policy_apply(): ss 4
+MSG,Call Manager/High,[              cmph.c  28672] =CM= Changed SS 0
+MSG,Call Manager/High,[              cmph.c  43498] =CM= Calling cmmsimc_proc_cmd_pref_sys_chgd() with:
+MSG,Call Manager/High,"[              cmph.c  43500] =CM= ss = 4, asubs_id=0, mode_pref = 39"
+MSG,Call Manager/High,"[              cmph.c  43502] =CM= force_reason = 0, act_type = 18, net_sel_pref = 0"
+MSG,Call Manager/High,"[              cmph.c  43504] =CM= prl_pref = 16383, roam_pref = 255, hybr_pref = 1"
+MSG,Call Manager/High,"[              cmph.c  43506] =CM= srv_domain_pref = 2, otasp_act_code = 101, force_term = 0"
+MSG,Call Manager/High,"[              cmph.c  43511] =CM= bands(MSB): cgw 0x00020000, lte 0x000001a0 tds 0x00000000"
+MSG,Call Manager/High,"[              cmph.c  43515] =CM= bands(LSB): cgw 0x04400380, lte 0x000800d5 tds 0x0000003f"
+MSG,Call Manager/High,"[        cmsimcoord.c   1291] =CM= MSIMC: table event=4, corr_tbl_idx=27"
+MSG,Call Manager/High,"[        cmsimcoord.c   1305] =CM= MSIMC: table state=4, action=0, new_state=3"
+MSG,Call Manager/High,"[             cmmsc.c   2289] =CM= pref_chgd: cm_ss=4, pref mode_pref=39, is_new_policy_tobe_read=0"
+MSG,Call Manager/High,"[             cmmsc.c   2206] =CM= cmmsc_current_stack_preference(): mode_pref  39, band_pref 0x4400380, lte_band_pref 0x800d5"
+MSG,Call Manager/High,[             cmmsc.c   2208] =CM= cmmsc_current_stack_preference(): tds_band_pref  0x3f
+MSG,Call Manager/High,"[             cmmsc.c   2359] =CM= OP_MODE: ph obj orig_mode_pref=39, act_type=18"
+MSG,Call Manager/High,"[        cmmsc_auto.c   2794] =CM= OP_MODE: is_new_policy_tobe_read 0, is_oprt_sub_change 0"
+MSG,Call Manager/High,[             cmmsc.c   1252] =CM= MSC: Not eligible to read the new policy so send default value 
+MSG,Call Manager/High,[        cmmsc_auto.c   3528] =CM= OP_MODE: mode_pref 0x6a8 & PM mode_cap 0x6a8 = 0x6a8
+MSG,Call Manager/High,"[        cmmsc_auto.c   2801] =CM= OP_MODE: updating op_mode, cdma sub 0 hybr1_allowed 1 hybr2_allowed 0"
+MSG,Call Manager/High,[             cmmsc.c   1252] =CM= MSC: Not eligible to read the new policy so send default value 
+MSG,Call Manager/High,"[             cmmsc.c   2539] =CM= MSC: pref_chgd: net_sel_mode=0, old_op_mode=11, new_op_mode=11"
+MSG,Call Manager/High,"[             cmmsc.c   5980] =CM= update_stack_preference(): mode_pref Old 39, new 39"
+MSG,Call Manager/High,"[             cmmsc.c   5981] =CM= update_stack_preference(): band_pref Old 0x4400380, new 0x4400380"
+MSG,Call Manager/High,"[             cmmsc.c   5982] =CM= update_stack_preference(): lte_band_pref Old 0x800d5, new 0x800d5"
+MSG,Call Manager/High,"[             cmmsc.c   5983] =CM= update_stack_preference(): tds_band_pref Old 0x3f, new 0x3f"
+MSG,Call Manager/High,"[             cmmsc.c   5264] =CM= MSC: info asubs_id=0, PM ue_mode=0, route_tbl id=0"
+MSG,Call Manager/High,"[             cmmsc.c   5273] =CM= MSC: table stack_id 0, curr state=0 tbl_stk_state 0"
+MSG,Call Manager/High,"[             cmmsc.c   5273] =CM= MSC: table stack_id 1, curr state=0 tbl_stk_state 0"
+MSG,Call Manager/High,"[             cmmsc.c   5273] =CM= MSC: table stack_id 2, curr state=0 tbl_stk_state 0"
+MSG,Call Manager/High,"[             cmmsc.c   5282] =CM= MSC: table event=13, op_mode=11, route_tbl_idx=30"
+MSG,Call Manager/High,[             cmmsc.c    682] =CM= MSC: execute action 17 on stack_idx 1 from tbl_idx 30
+MSG,Call Manager/High,"[             cmmsc.c    625] =CM= HICPS: ss 1 ph_obj_mode: 1704, is_ph_obj_gw_mode: 1"
+MSG,Call Manager/High,[             cmmsc.c    628] =CM= HICPS: srv_status 0 sys_mode 9 pref_update_reason: 0
+MSG,Call Manager/High,"[             cmmsc.c   3950] =CM= MSC->MMOC: pref_chgd, ss 1, stack rat_cap=0x6a8, mode_pref=39"
+MSG,Call Manager/High,"[             cmmsc.c   3953] =CM= MSC->MMOC: pref_chgd, sub max_cap=0x228, pm rat_cap=0x228"
+MSG,Call Manager/High,"[             cmmsc.c   3957] =CM= MSC->MMOC: pref_chgd, user_mode_pref=0x6a8, hybr_pref=1, orig_mode=0"
+MSG,Call Manager/High,[             cmmsc.c   4152] =CM= clear ph_orig_top_ptr pref_update_reason
+MSG,Call Manager/High,[             cmmsc.c    682] =CM= MSC: execute action 17 on stack_idx 0 from tbl_idx 30
+MSG,Call Manager/High,"[             cmmsc.c    625] =CM= HICPS: ss 0 ph_obj_mode: 1704, is_ph_obj_gw_mode: 1"
+MSG,Call Manager/High,[             cmmsc.c    628] =CM= HICPS: srv_status 0 sys_mode 9 pref_update_reason: 0
+MSG,Call Manager/High,"[             cmmsc.c   3950] =CM= MSC->MMOC: pref_chgd, ss 0, stack rat_cap=0x6a8, mode_pref=39"
+MSG,Call Manager/High,"[             cmmsc.c   3953] =CM= MSC->MMOC: pref_chgd, sub max_cap=0x228, pm rat_cap=0x228"
+MSG,Call Manager/High,"[             cmmsc.c   3957] =CM= MSC->MMOC: pref_chgd, user_mode_pref=0x6a8, hybr_pref=1, orig_mode=0"
+MSG,Call Manager/High,[             cmmsc.c   4152] =CM= clear ph_orig_top_ptr pref_update_reason
+MSG,Call Manager/High,[             cmmsc.c    682] =CM= MSC: execute action 0 on stack_idx 2 from tbl_idx 30
+MSG,Call Manager/High,[        cmsimcoord.c   1229] =CM= MSIMC: updating sim 0 no state change
+MSG,Call Manager/High,"[        cmsimcoord.c   1291] =CM= MSIMC: table event=10, corr_tbl_idx=-1"
+MSG,Call Manager/High,[              cmph.c  23735] =CM= ph_ptr->pwr_up_done 1
+MSG,Call Manager/High,"[          cmmmgsdi.c   7196] =CM= oprt_mode_online: cmmmgsdi_count_given_state, index 0, state 0"
+MSG,Call Manager/High,"[          cmmmgsdi.c   7196] =CM= oprt_mode_online: cmmmgsdi_count_given_state, index 1, state 0"
+MSG,Call Manager/High,"[          cmmmgsdi.c   7196] =CM= oprt_mode_online: cmmmgsdi_count_given_state, index 2, state 0"
+MSG,Call Manager/High,"[          cmmmgsdi.c   7196] =CM= oprt_mode_online: cmmmgsdi_count_given_state, index 3, state 0"
+MSG,Call Manager/High,"[          cmmmgsdi.c   7196] =CM= oprt_mode_online: cmmmgsdi_count_given_state, index 4, state 0"
+MSG,Call Manager/High,"[          cmmmgsdi.c   7196] =CM= oprt_mode_online: cmmmgsdi_count_given_state, index 5, state 0"
+MSG,Call Manager/High,"[          cmmmgsdi.c   7203] =CM= oprt_mode_online: cmmmgsdi_count_given_state, count 0"
+MSG,Call Manager/High,[              cmph.c  23754] =CM= oprt_mode_online: Sending operating mode online to MMOC
+MSG,Call Manager/High,[              cmph.c  44677] =CM= Send DDTM status=0 mask 0x0 num_srv_opt 5
+MSG,Call Manager/High,[              cmph.c  44680] =CM= Send DDTM so list action = -1
+MSG,Call Manager/High,[              cmph.c   7830] =CM= CM PH Event: 33
+MSG,Call Manager/High,"[              cmph.c  36498] =CM= mode_pref 39, pref_term 0"
+MSG,Call Manager/High,"[              cmph.c  36508] =CM= rat_disabled_mask as_id_0 0x0, as_id_1 0x0"
+MSG,Call Manager/High,"[              cmph.c  20016] =CM= RAT_DISABLED_MASK: sys_mode 9, is_rat_disabled=0, on as_id 0"
+MSG,Call Manager/High,"[              cmph.c  20016] =CM= RAT_DISABLED_MASK: sys_mode 4, is_rat_disabled=0, on as_id 0"
+MSG,Call Manager/High,[              cmph.c  36547] =CM= After updating from rat_disabled_mask mode_pref 39
+MSG,Call Manager/High,[             cmdbg.c   3701] =CM= <<CM1 phevt=33
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 33 ct 1 cid id 1
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 33 ct 11 cid id 11
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 33 ct 17 cid id 27
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 33 ct 17 cid id 28
+MSG,Call Manager/High,[             cmdbg.c   5089] =CM= CM>> LL cmd=28
+MSG,Call Manager/High,[             cmxll.c    740] =CM= Send cmd 28 to MC
+MSG,Call Manager/High,[              cmph.c  23795] =CM= oprt_mode_online: done
+MSG,Call Manager/High,"[        cmsimcoord.c   1345] =CM= MSIMC: as_id=0, sub_fmode=0"
+MSG,Call Manager/High,[        cmsimcoord.c   1468] =CM= MSIMC: oprt_chgd: 6->5
+MSG,Call Manager/High,[        cmsimcoord.c   1433] =CM= MSIMC: coordination 1 due to active_subs 1
+MSG,Call Manager/High,[        cmsimcoord.c   1510] =CM= MSIMC: oprt_chgd: cdma sub 0 gwl sub 0 gw2 sub 0
+MSG,Call Manager/High,"[        cmsimcoord.c   1514] =CM= MSIMC: oprt_chgd: gw3 sub 0 device_mode 0, ph mode_cap=0x228"
+MSG,Call Manager/High,"[        cmsimcoord.c   1258] =CM= MSIMC: info coordination=1, standby_pref=1"
+MSG,Call Manager/High,"[        cmsimcoord.c   1264] =CM= MSIMC: info sim_idx=0, sim state=0"
+MSG,Call Manager/High,"[        cmsimcoord.c   1291] =CM= MSIMC: table event=0, corr_tbl_idx=21"
+MSG,Call Manager/High,"[        cmsimcoord.c   1305] =CM= MSIMC: table state=0, action=0, new_state=2"
+MSG,Call Manager/High,"[             cmmsc.c   1915] =CM= MSC: oprt_chgd, asubs_id=0, sub_fmode=0"
+MSG,Call Manager/High,"[           cmpmprx.c   2121] =CM= PMPRX -> CM: Call Mode capability 0, subs_id 0"
+MSG,Call Manager/High,[           cmpmprx.c   1164] =CM= cmpmprx_reset_policy_chg_flag() on subs_id = 0 change_value = 256 policy_changes = 159
+MSG,Call Manager/High,"[              cmll.c    288] =CM= cm_msgr_send(), umid=33621045, inst_id=0, msgr_error=0"
+MSG,Call Manager/High,"[          cmemgext.c    886] =CM= CM->MSGR: CALL_MODE_IND, call_mode 0, subs_id 0"
+MSG,Call Manager/High,[             cmmsc.c   1252] =CM= MSC: Not eligible to read the new policy so send default value 
+MSG,Call Manager/High,"[             cmmsc.c   5264] =CM= MSC: info asubs_id=0, PM ue_mode=0, route_tbl id=0"
+MSG,Call Manager/High,"[             cmmsc.c   5273] =CM= MSC: table stack_id 0, curr state=0 tbl_stk_state 0"
+MSG,Call Manager/High,"[             cmmsc.c   5273] =CM= MSC: table stack_id 1, curr state=0 tbl_stk_state 0"
+MSG,Call Manager/High,"[             cmmsc.c   5273] =CM= MSC: table stack_id 2, curr state=0 tbl_stk_state 0"
+MSG,Call Manager/High,"[             cmmsc.c   5282] =CM= MSC: table event=2, op_mode=11, route_tbl_idx=13"
+MSG,Call Manager/High,[             cmmsc.c    682] =CM= MSC: execute action 0 on stack_idx 0 from tbl_idx 13
+MSG,Call Manager/High,[             cmmsc.c    682] =CM= MSC: execute action 0 on stack_idx 1 from tbl_idx 13
+MSG,Call Manager/High,[             cmmsc.c    682] =CM= MSC: execute action 0 on stack_idx 2 from tbl_idx 13
+MSG,Call Manager/High,"[             cmmsc.c   1038] =CM= MSC: updating stack 0, from state 0 to 2"
+MSG,Call Manager/High,"[             cmmsc.c   1038] =CM= MSC: updating stack 1, from state 0 to 2"
+MSG,Call Manager/High,"[             cmmsc.c   1038] =CM= MSC: updating stack 2, from state 0 to 1"
+MSG,Call Manager/High,"[        cmsimcoord.c   1223] =CM= MSIMC: updating sim 0, from state 0 to 2"
+MSG,Call Manager/High,[              cmph.c  26855] =CM= Updating Phone Object...
+MSG,Call Manager/High,"[              cmph.c   9811] =CM= HICPS: is_gw_mode: 1, is_ph_ptr_gw_mode: 1, is_ph_obj_gw_mode: 1"
+MSG,Call Manager/High,"[              cmph.c   9873] =CM= HICPS: phcmd: 0, ph_ptr->main_stack_info.pref_info.mode_pref: 39, Inserting mode preference: 39"
+MSG,Call Manager/High,[            cmtask.c   5056] =CM= cmtask_orig_para_delete act_type 18 act_id -787654616 ss 0
+MSG,Call Manager/High,[            cmtask.c   5229] =CM= cmtask_orig_para_insert act_type 18 act_id -787654616 ss 0
+MSG,Call Manager/High,[            cmtask.c   5056] =CM= cmtask_orig_para_delete act_type 18 act_id -787654616 ss 1
+MSG,Call Manager/High,[            cmtask.c   5229] =CM= cmtask_orig_para_insert act_type 18 act_id -787654616 ss 1
+MSG,Call Manager/High,[              cmph.c  26905] =CM= Received Reply for OPRT MODE Cmd..
+MSG,Call Manager/High,[              cmph.c  26957] =CM= Sending CM_PH_EVENT_OPRT_MODE to Clients
+MSG,Call Manager/High,[              cmph.c   7830] =CM= CM PH Event: 0
+MSG,Call Manager/High,"[              cmph.c  36498] =CM= mode_pref 39, pref_term 0"
+MSG,Call Manager/High,"[              cmph.c  36508] =CM= rat_disabled_mask as_id_0 0x0, as_id_1 0x0"
+MSG,Call Manager/High,"[              cmph.c  20016] =CM= RAT_DISABLED_MASK: sys_mode 9, is_rat_disabled=0, on as_id 0"
+MSG,Call Manager/High,"[              cmph.c  20016] =CM= RAT_DISABLED_MASK: sys_mode 4, is_rat_disabled=0, on as_id 0"
+MSG,Call Manager/High,[              cmph.c  36547] =CM= After updating from rat_disabled_mask mode_pref 39
+MSG,Call Manager/High,[             cmdbg.c   3701] =CM= <<CM1 phevt=0
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 1 cid id 1
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 2 cid id 2
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 3 cid id 3
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 4 cid id 4
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 11 cid id 11
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 17 cid id 17
+MSG,Call Manager/High,"[          cmregprx.c  14859] =CM= ph_stat_chgd: MMOC->CM: ue_mode=  0, is_ue_mode_substate_srlte=0"
+MSG,Call Manager/High,"[          cmregprx.c  14962] =CM= ph_stat_chgd: MMOC->CM: ss=0, ue_mode=  0, is_ue_mode_substate_srlte=0"
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 30 cid id 24
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 0 cid id 26
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 17 cid id 27
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 0 ct 17 cid id 28
+MSG,Call Manager/High,"[           cmipapp.c   3907] =CM= CLNUP: send oprt_mode is_cb_success 1, app_id 0"
+MSG,Call Manager/High,"[             cmdbg.c   3411] =CM= CMD alloc u=3632, tsk=dcc"
+MSG,Call Manager/High,[           cmipapp.c   4321] =CM= IMS->CM: App 0 confirming oprt mode
+MSG,Call Manager/High,"[           cmipapp.c   3907] =CM= CLNUP: send oprt_mode is_cb_success 1, app_id 1"
+MSG,Call Manager/High,"[           cmipapp.c   3914] =CM= CLNUP: Oprt_mode do_callback 0, is_cb_success 1, app_id 255"
+MSG,Call Manager/High,[              cmph.c  15843] =CM= DSDX: ds1 CM SUBS Event : 38 for ss: 0
+MSG,Call Manager/High,"[              cmph.c  15961] =CM= DD: 1, DV: 1, Opr: 0"
+MSG,Call Manager/High,[              cmph.c  15965] =CM= DSDX: ds1 mode_pref=39
+MSG,Call Manager/High,[              cmph.c  16089] =CM= vs_id 10c01000
+MSG,Call Manager/High,"[              cmph.c  16091] =CM= as_id 0, is_1x 0, is_gw 0"
+MSG,Call Manager/High,[          cmclient.c   4086] =CM= subs evt 38 ct 0 cid 0
+MSG,Call Manager/High,[          cmclient.c   4086] =CM= subs evt 38 ct 1 cid 1
+MSG,Call Manager/High,[          cmclient.c   4086] =CM= subs evt 38 ct 2 cid 2
+MSG,Call Manager/High,[          cmclient.c   4086] =CM= subs evt 38 ct 3 cid 3
+MSG,Call Manager/High,[          cmclient.c   4086] =CM= subs evt 38 ct 6 cid 6
+MSG,Call Manager/High,[          cmclient.c   4086] =CM= subs evt 38 ct 7 cid 7
+MSG,Call Manager/High,[          cmclient.c   4086] =CM= subs evt 38 ct 32 cid 23
+MSG,Call Manager/High,[          cmclient.c   4086] =CM= subs evt 38 ct 17 cid 28
+MSG,Call Manager/High,[             cmsoa.c   2708] =CM= CMSOA: no svlte - deactivate
+MSG,Call Manager/High,[              cmph.c  12789] =CM= proc oprt mode 5 when rf status is 1
+MSG,Call Manager/High,[             cmrpm.c    318] =CM= CMRPM:oprt_mode_chg prev:6 curr:5 rpm_enable:0
+MSG,Call Manager/High,[             cmrpm.c    320] =CM= check_timer:rpm_ptr->sys_time_efs:0 coin_cell_support:1 curr_systime:3615
+MSG,Call Manager/High,"[             cmdbg.c   3411] =CM= CMD free u=3632, tsk=ds, ftsk=cm"
+MSG,Call Manager/High,[             cmdbg.c   3538] =CM= >>CM phcmd 5: 17
+MSG,Call Manager/High,"[            cmtask.c  10750] =CM= reset cmd_ptr->is_reused = 0, cmd_ptr = 0xe1723220"
+MSG,Call Manager/High,"[              cmph.c  13042] =CM= cmph_client_cmd_check(), cmd=5, asubs_id=0, ss=0"
+MSG,Call Manager/High,[              cmph.c  26855] =CM= Updating Phone Object...
+MSG,Call Manager/High,"[              cmph.c   9811] =CM= HICPS: is_gw_mode: 1, is_ph_ptr_gw_mode: 1, is_ph_obj_gw_mode: 1"
+MSG,Call Manager/High,"[              cmph.c   9873] =CM= HICPS: phcmd: 5, ph_ptr->main_stack_info.pref_info.mode_pref: 39, Inserting mode preference: 39"
+MSG,Call Manager/High,[            cmtask.c   5056] =CM= cmtask_orig_para_delete act_type 18 act_id -787654616 ss 0
+MSG,Call Manager/High,[            cmtask.c   5229] =CM= cmtask_orig_para_insert act_type 18 act_id -787654616 ss 0
+MSG,Call Manager/High,[            cmtask.c   5056] =CM= cmtask_orig_para_delete act_type 18 act_id -787654616 ss 1
+MSG,Call Manager/High,[            cmtask.c   5229] =CM= cmtask_orig_para_insert act_type 18 act_id -787654616 ss 1
+MSG,Call Manager/High,"[              cmph.c  36498] =CM= mode_pref 39, pref_term 0"
+MSG,Call Manager/High,"[              cmph.c  36508] =CM= rat_disabled_mask as_id_0 0x0, as_id_1 0x0"
+MSG,Call Manager/High,"[              cmph.c  20016] =CM= RAT_DISABLED_MASK: sys_mode 9, is_rat_disabled=0, on as_id 0"
+MSG,Call Manager/High,"[              cmph.c  20016] =CM= RAT_DISABLED_MASK: sys_mode 4, is_rat_disabled=0, on as_id 0"
+MSG,Call Manager/High,[              cmph.c  36547] =CM= After updating from rat_disabled_mask mode_pref 39
+MSG,Call Manager/High,[          cmclient.c   1911] =CM= ph evt 12 ct 17 cid id 27
+MSG,Call Manager/High,"[             cmdbg.c   3411] =CM= CMD free u=3632, tsk=dcc, ftsk=cm"
+MSG,Call Manager/High,[            cmtask.c  10625] =CM= RPT RXD: SD cmd=527
+MSG,Call Manager/High,[             cmdbg.c   4554] =CM= CM<< SD 527: 0
+MSG,Call Manager/High,[            cmcall.c  20707] =CM= BSR status 0

@@ -11,20 +11,20 @@ from csv import DictWriter
 class Test_Modem:
 
     def __init__(self, input_file_directory, input_filename, output_file_directory, output_file_name, log_type,
-                 qxdm_summary_filter, qxdm_name_filter, qxdm_itemtype_filter):
+                 qxxm_summary_filter, qxxm_name_filter, qxxm_itemtype_filter):
         self.input_file_directory = str(input_file_directory)
         self.input_filename = str(input_filename)
         self.output_file_directory = str(output_file_directory)
         self.output_file_name = str(output_file_name)
         self.log_type = str(log_type)
-        self.qxdm_summary_filter = str(qxdm_summary_filter)
-        self.qxdm_name_filter = str(qxdm_name_filter)
-        self.qxdm_itemtype_filter = qxdm_itemtype_filter
+        self.qxxm_summary_filter = str(qxxm_summary_filter)
+        self.qxxm_name_filter = str(qxxm_name_filter)
+        self.qxxm_itemtype_filter = qxxm_itemtype_filter
 
-    def QXXM_itemType(self, qxdm_itemtype_filter):
-        if self.qxdm_itemtype_filter == 6:
+    def QXXM_itemType(self, qxxm_itemtype_filter):
+        if self.qxxm_itemtype_filter == 6:
             return 'MSG'
-        elif self.qxdm_itemtype_filter == 5:
+        elif self.qxxm_itemtype_filter == 5:
             return 'LOG'
 
     def QXXT_Logging_Packet(self):
@@ -33,7 +33,7 @@ class Test_Modem:
         QcatApp = win32com.client.Dispatch("QCAT6.Application")
         print("QCAT version: " + QcatApp.AppVersion)
         print("Open Log: " + INPUT_FILE)
-        if QcatApp.OpenLog(INPUT_FILE) != 1:  # winfilepath为需要打开的文档路径
+        if QcatApp.OpenLog(INPUT_FILE) != 1:
             print("Open Log Error")
             exit()
         print("file open ok")
@@ -44,8 +44,8 @@ class Test_Modem:
         # print(TargetLogIdF)
         # print(type(TargetLogIdF))
         SIBFilter = QcatApp.PacketFilter
-        SIBFilter.SetAll(False)  # 设置过滤所有的消息类型
-        SIBFilter.Set(TargetLogIdF, True)  # Filter 0xB0C0的log
+        SIBFilter.SetAll(False)
+        SIBFilter.Set(TargetLogIdF, True)  # Filter 0xB0C0
         SIBFilter.Commit()
 
         QcatPacketNum = QcatApp.PacketCount  # Total packets
@@ -72,10 +72,10 @@ class Test_Modem:
     def QXXM_Logging_Packet(self):
         j = 0
         print(os.getcwd())
-        print(x.QXDM_itemType(6))
+        print(x.QXXM_itemType(6))
         INPUT_FILE = self.input_file_directory + self.input_filename
         # OUTPUT_FILE = self.output_file_directory + self.output_file_name
-        QxdmApp = Dispatch("QXDM.QXDMAutoApplication")  # Initialize QXDM
+        QxdmApp = Dispatch("QXDM.QXDMAutoApplication")  # Initialize QXXM
         autoWindow = QxdmApp.GetAutomationWindow()
         print("QXDM version: " + autoWindow.AppVersion)
         print("Open Log: " + INPUT_FILE)
@@ -97,13 +97,13 @@ class Test_Modem:
             # timeStr = time.strftime("%Y-%m-%d%H:%M:%S",act_time)
             # print(timeStr)
             # print(summary)
-            if self.qxdm_itemtype_filter is 5 or 6:
-                if self.qxdm_summary_filter in summary and self.qxdm_name_filter in name:
+            if self.qxxm_itemtype_filter is 5 or 6:
+                if self.qxxm_summary_filter in summary and self.qxxm_name_filter in name:
                     j = j + 1
                     print('Eddy_j:', j)
-                    print(x.QXDM_itemType(self.qxdm_itemtype_filter) + ' || ' + stamp + ' || ' + name + ' || ' + summary + ' || ' + keyText)
+                    print(x.QXXM_itemType(self.qxxm_itemtype_filter) + ' || ' + stamp + ' || ' + name + ' || ' + summary + ' || ' + keyText)
                     data_flag = {
-                        'type': [x.QXDM_itemType(self.qxdm_itemtype_filter)],
+                        'type': [x.QXXM_itemType(self.qxxm_itemtype_filter)],
                         'name': [name],
                         'summary': [summary]
                     }
@@ -149,4 +149,4 @@ if __name__ == '__main__':
     # print('Filter_Type:', x.log_type)
     # print(type(x.log_type))
     # x.QCAT_Logging_Packet()
-    x.QXDM_Logging_Packet()
+    x.QXXM_Logging_Packet()

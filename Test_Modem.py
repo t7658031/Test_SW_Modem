@@ -21,13 +21,13 @@ class Test_Modem:
         self.qxdm_name_filter = str(qxdm_name_filter)
         self.qxdm_itemtype_filter = qxdm_itemtype_filter
 
-    def QXDM_itemType(self, qxdm_itemtype_filter):
+    def QXXM_itemType(self, qxdm_itemtype_filter):
         if self.qxdm_itemtype_filter == 6:
             return 'MSG'
         elif self.qxdm_itemtype_filter == 5:
             return 'LOG'
 
-    def QCAT_Logging_Packet(self):
+    def QXXT_Logging_Packet(self):
         INPUT_FILE = self.input_file_directory + self.input_filename
         OUTPUT_FILE = self.output_file_directory + self.output_file_name
         QcatApp = win32com.client.Dispatch("QCAT6.Application")
@@ -69,7 +69,7 @@ class Test_Modem:
         # print(type(Q2))
         # print(Q2)
 
-    def QXDM_Logging_Packet(self):
+    def QXXM_Logging_Packet(self):
         j = 0
         print(os.getcwd())
         print(x.QXDM_itemType(6))

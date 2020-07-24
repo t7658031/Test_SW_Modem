@@ -1,0 +1,16 @@
+type,filter,name,summary
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last  85436 ms |DL 5gPHY| 0 Kbps |5gMAC| 68901 Kbps |5gRLC| 0 Kbps |5gPDCP| 90912 Kbps |IPA| 90912 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 2 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 2 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2009 ms |DL 5gPHY| 0 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 23 Kbps |5gMAC| 5 Kbps |5gRLC| 5 Kbps |5gPDCP| 5 Kbps |IPA| 5 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 6 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 31 Kbps |5gMAC| 5 Kbps |5gRLC| 4 Kbps |5gPDCP| 4 Kbps |IPA| 4 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 98 Kbps |5gMAC| 37 Kbps |5gRLC| 36 Kbps |5gPDCP| 36 Kbps |IPA| 36 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 767 Kbps |5gMAC| 331 Kbps |5gRLC| 328 Kbps |5gPDCP| 328 Kbps |IPA| 328 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 44936 Kbps |5gMAC| 27812 Kbps |5gRLC| 27735 Kbps |5gPDCP| 27735 Kbps |IPA| 27661 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 66034 Kbps |5gMAC| 40028 Kbps |5gRLC| 39950 Kbps |5gPDCP| 39950 Kbps |IPA| 39915 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 64625 Kbps |5gMAC| 39147 Kbps |5gRLC| 39059 Kbps |5gPDCP| 39059 Kbps |IPA| 39168 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 67772 Kbps |5gMAC| 40923 Kbps |5gRLC| 40826 Kbps |5gPDCP| 40826 Kbps |IPA| 40792 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 67113 Kbps |5gMAC| 40630 Kbps |5gRLC| 40545 Kbps |5gPDCP| 40545 Kbps |IPA| 40493 Kbps |AP | TPUT
+15,QTRACE,QSH/ANALYSIS/Low/ENL2DL,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 53984 Kbps |5gMAC| 32420 Kbps |5gRLC| 32341 Kbps |5gPDCP| 32341 Kbps |IPA| 32421 Kbps |AP | TPUT

@@ -3,6 +3,10 @@
 import time
 from multiprocessing import Process, Pool
 import os
+import psutil
+import os
+import gc
+info = psutil.virtual_memory()
 
 
 # class Test_Multiprocessing:
@@ -26,15 +30,28 @@ def Test_multicore(i):
     # startTime_1 = time.time()
     k = 0
     num0 = []
-    for k in range(10000000):
-        num0 += [plusplus(k)]
+    num1 = []
+    for k in range(10):
+        # num0 += [plusplus(k)]
+        print(k)
+        poo2 = poolTest.apply_async(plusplus, (k,))
+        print(type(poo2))
+        num0.append(poo2)
+        num1 += [poo2]
+        print(num0)
+        print(type(num0))
+        print(num1)
+        print(type(num1))
+        #print(poo2)
     # print('Eddy', num0)
-    pool_result_multicore2 = poolTest.map(plusplus, num0)
+    # pool_result_multicore2 = poolTest.map(plusplus, num0)
+    for r in num0:
+        print('result', r.get())
     poolTest.close()
     poolTest.join()
     # endTime_1 = time.time()
-    print(pool_result_multicore2)
-    return pool_result_multicore2
+    #print(pool_result_multicore2)
+    #return pool_result_multicore2
 
     # print(pool_result_multicore)
     # print("time1 :", endTime_1 - startTime_1)
@@ -63,6 +80,12 @@ def Test_normal(i):
 if __name__ == "__main__":
     #x = Test_Multiprocessing()
     # Test_Multiprocessing.Test_multicore()
+    print('è¨˜æ†¶é«”ä½¿?¨ï?', psutil.Process(os.getpid()).memory_info().rss)
+    print('ç¸½è??¶é?ï¼?, info.total)
+    print('è¨˜æ†¶é«”ä?æ¯”ï?', info.percent)
+    print('cpu?‹æ•¸ï¼?, psutil.cpu_count())
+    #print(gc.isenabled())
+    print(gc.collect())
     Time_1 = time.time()
     Test_multicore(8)
     Time_2 = time.time()

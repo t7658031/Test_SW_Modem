@@ -11,7 +11,7 @@ from numba import jit
 
 
 class Test_Modem:
-    @jit
+
     def __init__(self, input_file_directory, input_filename, output_file_directory, output_file_name, log_type,
                  qxdm_summary_filter, qxdm_name_filter, qxdm_itemtype_filter, csv_name):
         self.input_file_directory = str(input_file_directory)
@@ -152,14 +152,16 @@ class Test_Modem:
         # item = autoWindow.GetItem(handle, strNumber)
         # summary = item.GetItemSummary()
         # print(summary)
-        for i in range(0, total_itemcounts):
+        for i in range(0, 500000):
             item = autoWindow.GetItem(handle, i)
             itemtype = str(item.GetItemType())
             # global itemtype_global
             # itemtype_global= item.GetItemType()
             name = item.GetItemName()
             summary = item.GetItemSummary()
-            stamp = str(int(item.GetItemTimestamp()))
+            stamp = int(item.GetItemTimestamp())
+            stamp_f = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(stamp / 1000))
+            # stamp = str(item.GetItemTimestamp())
             keyText = item.GetItemKeyText()
             # act_time = time.localtime(stamp)
             # timeStr = time.strftime("%Y-%m-%d%H:%M:%S",act_time)
@@ -174,7 +176,7 @@ class Test_Modem:
                     j = j + 1
                     print('Eddy_j:', j)
                     print(x.QXDM_itemType(
-                        self.qxdm_itemtype_filter) + ' || ' + stamp + ' || ' + name + ' || ' + summary + ' || ' + keyText)
+                        self.qxdm_itemtype_filter) + ' || ' + stamp_f + ' || ' + name + ' || ' + summary)
                     data_flag = {
                         'type': [x.QXDM_itemType(self.qxdm_itemtype_filter)],
                         'name': [name],
@@ -191,7 +193,7 @@ class Test_Modem:
                 # if self.qxdm_summary_filter in summary and self.qxdm_name_filter in name:
                 j = j + 1
                 print('Eddy_j:', j)
-                print(itemtype + ' || ' + stamp + ' || ' + name + ' || ' + summary + ' || ' + keyText)
+                print(itemtype + ' || ' + stamp_f + ' || ' + name + ' || ' + summary)
                 data_flag = {
                     'type': [itemtype],
                     'name': [name],
@@ -206,23 +208,49 @@ class Test_Modem:
             elif self.qxdm_itemtype_filter == 15:
                 # print('TP_03')
                 if int(itemtype) == 15:
-                    if self.qxdm_name_filter in name and self.qxdm_summary_filter in summary:
+                    if self.qxdm_summary_filter in summary:
                         j = j + 1
                         print('Eddy_Counter:', j)
-                        print(itemtype + ' || ' + x.QXDM_itemType(self.qxdm_itemtype_filter) + ' || ' + stamp + ' || ' +
-                              name + ' || ' + summary + ' || ' + keyText)
+                        print(
+                            itemtype + ' || ' + x.QXDM_itemType(self.qxdm_itemtype_filter) + ' || ' + stamp_f + ' || ' +
+                            name + ' || ' + summary)
                         data_flag = {
                             'type': [itemtype],
+                            'time_stamp': [stamp_f],
                             'filter': [x.QXDM_itemType(self.qxdm_itemtype_filter)],
                             'name': [name],
                             'summary': [summary]
                         }
-                        df = pd.DataFrame(data_flag, columns=['type', 'filter', 'name', 'summary'])
+                        df = pd.DataFrame(data_flag, columns=['type', 'time_stamp', 'filter', 'name', 'summary'])
                         print(df)
                         if j == 1:
                             df.to_csv(self.csv_name, mode='a', index=0, header=True)
                         else:
                             df.to_csv(self.csv_name, mode='a', index=0, header=False)
+            # Origin
+            #elif self.qxdm_itemtype_filter == 15:
+            #    # print('TP_03')
+            #    if int(itemtype) == 15:
+            #        if self.qxdm_name_filter in name and self.qxdm_summary_filter in summary:
+            #            j = j + 1
+            #            print('Eddy_Counter:', j)
+            #            print(itemtype + ' || ' + x.QXDM_itemType(
+            #                self.qxdm_itemtype_filter) + ' || ' + stamp_f + ' || ' +
+            #                  name + ' || ' + summary)
+            #            data_flag = {
+            #                'type': [itemtype],
+            #                'time_stamp': [stamp_f],
+            #                'filter': [x.QXDM_itemType(self.qxdm_itemtype_filter)],
+            #                'name': [name],
+            #                'summary': [summary]
+            #            }
+            #            df = pd.DataFrame(data_flag,
+            #                              columns=['type', 'time_stamp', 'filter', 'name', 'summary'])
+            #            print(df)
+            #            if j == 1:
+            #                df.to_csv(self.csv_name, mode='a', index=0, header=True)
+            #            else:
+            #                df.to_csv(self.csv_name, mode='a', index=0, header=False)
 
 # df_timestamp = [stamp]
 
@@ -239,17 +267,22 @@ class Test_Modem:
 
 
 if __name__ == '__main__':
-    x = Test_Modem('F:\\Pycharm\\Project\\Test_Modem\\', 'log02.isf', 'F:\\Pycharm\\Project\\Test_Modem\\',
-                   'log03_isf.txt', '0xB0C0', 'enl2_dl_qsh.c    931', 'QSH/ANALYSIS/Low/ENL2DL', 15, 'test000')
+    x = Test_Modem('F:\\Pycharm\\Project\\Test_Modem\\', '07-30.12-19.isf', 'F:\\Pycharm\\Project\\Test_Modem\\',
+                   'log03_isf.txt', '0xB0C0', 'ENL2DL   | NR | Last   2000 ms', 'QSH', 15, '073012222')
     #x = Test_Modem('F:\\Pycharm\\Project\\Test_Modem\\', 'log01.isf', 'F:\\Pycharm\\Project\\Test_Modem\\',
-    #               'log02_isf.txt', '0xB0C0', '=CM=', 'Call Manager/High', -1, 'test1111')
+    #                'log02_isf.txt', '0xB0C0', '=CM=', 'Call Manager/High', 6, '123')
     # print('Input_File_directory:', x.input_file_directory)
     # print('Input_File_name:', x.input_filename)
     # print('Output_File_directory:', x.output_file_directory)
-    # print('Output_File_name:', x.output_file_name)
+    # print('Output_File_name:', x.output_file_name07-30.11-02)
     # print('Filter_Type:', x.log_type)
     # print(type(x.log_type))
     # x.QCAT_Logging_Packet()
     print(x.qxdm_itemtype_filter)
     print(type(x.qxdm_itemtype_filter))
+    Time_1 = time.time()
+    print('Time1:', Time_1)
     x.QXDM_Logging_Packet_TestMode()
+    Time_2 = time.time()
+    print('Time2:', Time_2)
+    print('T2:', Time_2 - Time_1)

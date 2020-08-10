@@ -12,7 +12,9 @@ from numba import jit
 import time
 from multiprocessing import Process, Pool, freeze_support
 import gc
+import numpy as np
 import threading
+import psutil
 
 # from multiprocessing.pool import ThreadPool as Pool
 # from pathos.multiprocessing import ProcessingPool as Pool
@@ -30,14 +32,15 @@ import threading
 #    self.qxdm_itemtype_filter = qxdm_itemtype_filter
 #    self.csv_name = str(csv_name) + '.csv'
 input_file_directory = 'F:\\Pycharm\\Project\\Test_Modem\\'
-val1 = 'log01.isf'
-val2 = 6
-# val3 = 'ENL2DL   | NR | Last   2000 ms'
-val3 = '=CM='
+val1 = '07-30.12-19.isf'
+val2 = 15
+val3 = 'ENL2DL   | NR | Last   2000 ms'
+# val3 = '=CM='
 val4 = 'Call Manager/High'
-user_itemtype = 6
+user_itemtype = 15
 user_summary = str(val3)
 user_name = str(val4)
+PROCNAME = "QXDM.exe"
 
 
 # val5 = QXDM_itemCounts(val1)
@@ -193,66 +196,89 @@ def QXDM_Logging_Packet_TestMode(obj_qxdmitem):
     # df_timestamp = [stamp]
 
 
-def QXDM_Time_Api(obj):
-    print('test:', obj.GetItemType())
-    itemtype = str(obj.GetItemType())
-    name = obj.GetItemName()
-    summary = obj.GetItemSummary()
-    stamp = int(obj.GetItemTimestamp())
-    stamp_f = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(stamp / 1000))
-    if user_itemtype == 6:
-        if user_summary in summary:
-            # print(itemtype + ' || ' + stamp_f + ' || ' +
-            #      name + ' || ' + summary)
-            # print(stamp_f + ' || ' + summary)
-            data_flag = {
-                'time_stamp': [stamp_f]
-            }
-            df_qxdm_1 = pd.DataFrame(data_flag, columns=['time_stamp', 'summary'])
-            df_qxdm_1.to_csv(output_filename_timestamp, mode='a', index=0, header=False)
-    elif user_itemtype == 15:
-        if int(itemtype) == 15:
+def QXDM_Time_Summary_Api(val):
+    print('val:', val)
+    QxdmApp = Dispatch("QXDM.QXDMAutoApplication")  # Initialize QXDM
+    autoWindow = QxdmApp.GetAutomationWindow()
+    handle = autoWindow.LoadItemStore(INPUT_FILE)  # load ISF file
+    for k in range(len(val)):
+        val_T = val[k]
+        print(val_T)
+        # time.sleep(0.5)
+        # try:
+        obj_item = autoWindow.GetItem(handle, val_T)
+        print(obj_item)
+        if obj_item is None:
+            print('Eddy_obj:', obj_item)
+        itemtype = str(obj_item.GetItemType())
+        name = obj_item.GetItemName()
+        summary = obj_item.GetItemSummary()
+        stamp = int(obj_item.GetItemTimestamp())
+        stamp_f = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(stamp / 1000))
+        # itemtype = str(obj_item.GetItemType())
+        # except:
+        #    print('Exception')
+        # else:
+        if user_itemtype == 6:
             if user_summary in summary:
-                # print(itemtype + ' || ' + stamp_f + ' || ' + name + ' || ' + summary)
-            data_flag = {
-                    # 'type': [itemtype],
-                'time_stamp': [stamp_f],
-                    # 'name': [name],
-                    # 'summary': [summary]
+                # print(itemtype + ' || ' + stamp_f + ' || ' +
+                #      name + ' || ' + summary)
+                print(stamp_f + ' || ' + summary)
+                # data_1 = np.array([stamp_f])
+                # data_2 = np.array([summary])
+                # data_npflag = np.append(data_1, data_2)
+                # print(data_npflag)
+                # df = pd.DataFrame(data_npflag, columns=['time_stamp', 'summary'])
+                # df.to_csv(output_filename_timestamp, mode='a', index=0, header=False)
+                data_flag = {
+                    'time_stamp': [stamp_f],
+                    'summary': [summary]
                 }
                 df_qxdm_1 = pd.DataFrame(data_flag, columns=['time_stamp', 'summary'])
                 df_qxdm_1.to_csv(output_filename_timestamp, mode='a', index=0, header=False)
-
-
-def QXDM_Symmary_Api(obj):
-    itemtype = str(obj.GetItemType())
-    name = obj.GetItemName()
-    summary = obj.GetItemSummary()
-    stamp = int(obj.GetItemTimestamp())
-    stamp_f = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(stamp / 1000))
-    if user_itemtype == 6:
-        if user_summary in summary:
-            # print(itemtype + ' || ' + stamp_f + ' || ' +
-            #      name + ' || ' + summary)
-            # print(stamp_f + ' || ' + summary)
-            data_flag = {
-                'summary': [summary]
-            }
-            df_qxdm_2 = pd.DataFrame(data_flag, columns=['time_stamp', 'summary'])
-            df_qxdm_2.to_csv(output_filename_summary, mode='a', index=0, header=False)
         elif user_itemtype == 15:
-        print('itemtype:', itemtype)
             if int(itemtype) == 15:
                 if user_summary in summary:
-                # print(itemtype + ' || ' + stamp_f + ' || ' + name + ' || ' + summary)
+                    # print(itemtype + ' || ' + stamp_f + ' || ' + name + ' || ' + summary)
                     data_flag = {
-                    # 'type': [itemtype],
-                    # 'time_stamp': [stamp_f],
-                    # 'name': [name],
+                        # 'type': [itemtype],
+                        'time_stamp': [stamp_f],
+                        # 'name': [name],
                         'summary': [summary]
                     }
-                df_qxdm_2 = pd.DataFrame(data_flag, columns=['time_stamp', 'summary'])
-                df_qxdm_2.to_csv(output_filename_summary, mode='a', index=0, header=False)
+                    df_qxdm_1 = pd.DataFrame(data_flag, columns=['time_stamp', 'summary'])
+                    df_qxdm_1.to_csv(output_filename_timestamp, mode='a', index=0, header=False)
+
+
+# def QXDM_Symmary_Api(obj):
+#    itemtype = str(obj.GetItemType())
+#    name = obj.GetItemName()
+#    summary = obj.GetItemSummary()
+#    stamp = int(obj.GetItemTimestamp())
+#    stamp_f = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(stamp / 1000))
+#    if user_itemtype == 6:
+#        if user_summary in summary:
+#            # print(itemtype + ' || ' + stamp_f + ' || ' +
+#            #      name + ' || ' + summary)
+#            # print(stamp_f + ' || ' + summary)
+#            data_flag = {
+#                'summary': [summary]
+#            }
+#            df_qxdm_2 = pd.DataFrame(data_flag, columns=['time_stamp', 'summary'])
+#            df_qxdm_2.to_csv(output_filename_summary, mode='a', index=0, header=False)
+#    elif user_itemtype == 15:
+#        print('itemtype:', itemtype)
+#        if int(itemtype) == 15:
+#            if user_summary in summary:
+#                # print(itemtype + ' || ' + stamp_f + ' || ' + name + ' || ' + summary)
+#                data_flag = {
+#                    # 'type': [itemtype],
+#                    # 'time_stamp': [stamp_f],
+#                    # 'name': [name],
+#                    'summary': [summary]
+#                }
+#                df_qxdm_2 = pd.DataFrame(data_flag, columns=['time_stamp', 'summary'])
+#                df_qxdm_2.to_csv(output_filename_summary, mode='a', index=0, header=False)
 
 
 # def QXDM_Logging_Packet_Multiprocessing(self):
@@ -280,88 +306,31 @@ def QXDM_Symmary_Api(obj):
 
 
 if __name__ == '__main__':
-    # input_file_directory = 'F:\\Pycharm\\Project\\Test_Modem\\'
-    # val1 = 'log01.isf'
-    # val2 = 6
-    # val3 = '=CM='
-    # val4 = 'Call Manager/High'
-    # val5 = QXDM_itemCounts(val1)
-    gc.collect()
-    # Time_1 = time.time()
-    # print('Time1:', Time_1)
     INPUT_FILE = input_file_directory + val1
     csv_log_time = time.localtime()
-    output_filename_timestamp = str(val1)[:-4] + '_timestamp_' + get_local_time_info(csv_log_time) + '.csv'
-    output_filename_summary = str(val1)[:-4] + '_summary_' + get_local_time_info(csv_log_time) + '.csv'
+    output_filename_timestamp = str(val1)[:-4] + '_info_' + get_local_time_info(csv_log_time) + '.csv'
+    # output_filename_summary = str(val1)[:-4] + '_summary_' + get_local_time_info(csv_log_time) + '.csv'
     df0 = pd.DataFrame(columns=['time_stamp', 'summary'])
     df0.to_csv(output_filename_timestamp, mode='a', index=0, header=True)
-    df0.to_csv(output_filename_summary, mode='a', index=0, header=True)
-    # QXDM_Logging_Packet_TestMode(val1, val2, val3, val4, val5)
-    # pool = Pool(processes=4)
     QxdmApp = Dispatch("QXDM.QXDMAutoApplication")  # Initialize QXDM
     autoWindow = QxdmApp.GetAutomationWindow()
     print("QXDM version: " + autoWindow.AppVersion)
     print("Open Log: " + INPUT_FILE)
     handle = autoWindow.LoadItemStore(INPUT_FILE)  # load ISF file
-    # global total_itemcounts
     total_itemcounts = autoWindow.GetItemCount()  # Get item counts of the ISF file
-    print(total_itemcounts)
-    # eddy_poolcounts = [autoWindow.GetItem(handle, i) for i in range(0, 2)]
-    eddy_poolcounts = []
-    # for i in range(2):
-    #    eddy_poolcounts.append(autoWindow.GetItem(handle, i))
-    #    print(eddy_poolcounts.append(autoWindow.GetItem(handle, i)))
-    ##print(eddy_poolcounts)
-    ##print(eddy_poolcounts)
-    # print(type(eddy_poolcounts))
-    # pool_Test = Pool()
-    # print(os.cpu_count())
-    # freeze_support()
-    # pool.map(QXDM_Logging_Packet_TestMode, eddy_poolcounts)
-    # pool.close()
-    # pool.join()
-    # obj_item = autoWindow.GetItem(handle, 2)
-    # print(obj_item)
-    # pT = pool_Test.apply_async(QXDM_Logging_Packet_TestMode, (obj_item,))
-    # print(pT)
-    # eddy_poolcounts.append(pT)
-    # print(eddy_poolcounts)
+    print('Total_caps:', total_itemcounts)
     Time_1 = time.time()
     print('Time1:', Time_1)
-    for i in range(0, total_itemcounts):
-        print('eddy_i:', i)
-        obj_item = autoWindow.GetItem(handle, i)
-        # print('eddy_obj0:', eddy_poolcounts.append(obj_item))
-        # eddy_poolcounts += [obj_item]
-        # print(eddy_poolcounts)
-        # print('eddy obj:', obj_item)
-        # Time_1 = time.time()
-        # print('Time1:', Time_1)
-        process_Test_time = Process(target=QXDM_Time_Api, args=(obj_item,))
-        process_Test_summary = Process(target=QXDM_Symmary_Api, args=(obj_item,))
-        # process_Test_B = Process(target=QXDM_Logging_Packet_TestMode_W, args=(obj_item,))
-        # pT = pool_Test.apply_async(QXDM_Logging_Packet_TestMode, (obj_item,))
-        eddy_poolcounts.append(process_Test_time)
-        eddy_poolcounts.append(process_Test_summary)
-        # eddy_poolcounts.append(process_Test_B)
-        # eddy_poolcounts.append(pT)
-        # eddy_poolcounts += [pT]
-        # time.sleep(3)
-        # print(eddy_poolcounts)
-        # pool_Test.close()
-        # pool_Test.join()
-        # process_Test.start()
-        # process_Test.join()
-        process_Test_time.run()
-        process_Test_summary.run()
-    # gc.collect()
-    # gc.collect()
-        # print(type(QXDM_Logging_Packet_TestMode(obj_item)))  # Dictionary format
-        # QXDM_Logging_Packet_TestMode(obj_item)
-    # for r in eddy_poolcounts:
-    #    print('result', r.get())
-    # pool_Test.close()
-    # pool_Test.join()
+    i = np.arange(0, total_itemcounts, 1)
+    process_Test_time = Process(target=QXDM_Time_Summary_Api, args=(i,))
+    # time.sleep(1)
+    #for proc in psutil.process_iter():
+    #    # print('TP_kill')
+    #    # check whether the process name matches
+    #    if proc.name() == PROCNAME:
+    #        print('TP_kill')
+    #        proc.kill()
+    process_Test_time.run()
     Time_2 = time.time()
     print('Time1:', Time_1)
     print('Time2:', Time_2)

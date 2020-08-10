@@ -1,0 +1,175 @@
+time_stamp,summary
+2020/7/31 03:14,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 129 Kbps |5gMAC| 27 Kbps |5gRLC| 26 Kbps |5gPDCP| 26 Kbps |IPA| 26 Kbps |AP | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 5 Kbps | 5gMAC Pad: 95 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 270 Kbps |5gMAC| 82 Kbps |5gRLC| 81 Kbps |5gPDCP| 81 Kbps |IPA| 81 Kbps |AP | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 186 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 599 Kbps |5gMAC| 244 Kbps |5gRLC| 242 Kbps |5gPDCP| 242 Kbps |IPA| 242 Kbps |AP | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 350 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 910 Kbps |5gMAC| 396 Kbps |5gRLC| 391 Kbps |5gPDCP| 391 Kbps |IPA| 391 Kbps |AP | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 508 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 339 Kbps |5gMAC| 134 Kbps |5gRLC| 133 Kbps |5gPDCP| 133 Kbps |IPA| 133 Kbps |AP | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 20 Kbps | 5gMAC Pad: 182 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 55 Kbps |5gMAC| 7 Kbps |5gRLC| 6 Kbps |5gPDCP| 6 Kbps |IPA| 6 Kbps |AP | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 47 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 200 Kbps |5gMAC| 67 Kbps |5gRLC| 66 Kbps |5gPDCP| 66 Kbps |IPA| 66 Kbps |AP | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 131 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 3 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:14,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 3 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 22 Kbps |5gMAC| 1 Kbps |5gRLC| 1 Kbps |5gPDCP| 1 Kbps |IPA| 1 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 20 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 32 Kbps |5gMAC| 1 Kbps |5gRLC| 1 Kbps |5gPDCP| 1 Kbps |IPA| 1 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 30 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 12 Kbps |5gMAC| 1 Kbps |5gRLC| 1 Kbps |5gPDCP| 1 Kbps |IPA| 1 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 11 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 19 Kbps |5gMAC| 1 Kbps |5gRLC| 1 Kbps |5gPDCP| 1 Kbps |IPA| 1 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 17 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 6 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 6 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 0 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 6 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 6 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 26 Kbps |5gMAC| 1 Kbps |5gRLC| 1 Kbps |5gPDCP| 1 Kbps |IPA| 1 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 24 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 16 Kbps |5gMAC| 1 Kbps |5gRLC| 1 Kbps |5gPDCP| 1 Kbps |IPA| 2 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 14 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 90 Kbps |5gMAC| 20 Kbps |5gRLC| 18 Kbps |5gPDCP| 18 Kbps |IPA| 18 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 16 Kbps | 5gMAC Pad: 52 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 6 Kbps |5gMAC| 1 Kbps |5gRLC| 1 Kbps |5gPDCP| 1 Kbps |IPA| 1 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 5 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 0 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 109 Kbps |5gMAC| 31 Kbps |5gRLC| 31 Kbps |5gPDCP| 31 Kbps |IPA| 31 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 76 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 12 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 11 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 13 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 13 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 3 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 3 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 27 Kbps |5gMAC| 1 Kbps |5gRLC| 1 Kbps |5gPDCP| 1 Kbps |IPA| 1 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 25 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 6 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 6 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 6 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 6 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 43 Kbps |5gMAC| 19 Kbps |5gRLC| 19 Kbps |5gPDCP| 19 Kbps |IPA| 19 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 23 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 53 Kbps |5gMAC| 4 Kbps |5gRLC| 4 Kbps |5gPDCP| 4 Kbps |IPA| 4 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 48 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 349 Kbps |5gMAC| 189 Kbps |5gRLC| 187 Kbps |5gPDCP| 187 Kbps |IPA| 187 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 158 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 656 Kbps |5gMAC| 211 Kbps |5gRLC| 208 Kbps |5gPDCP| 208 Kbps |IPA| 208 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 3 Kbps | 5gMAC Pad: 438 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 0 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 115 Kbps |5gMAC| 44 Kbps |5gRLC| 43 Kbps |5gPDCP| 43 Kbps |IPA| 43 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 3 Kbps | 5gMAC Pad: 67 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 512 Kbps |5gMAC| 222 Kbps |5gRLC| 220 Kbps |5gPDCP| 220 Kbps |IPA| 220 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 288 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 496 Kbps |5gMAC| 154 Kbps |5gRLC| 152 Kbps |5gPDCP| 152 Kbps |IPA| 152 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 3 Kbps | 5gMAC Pad: 336 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 3 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 3 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 3 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:15,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 3 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 13 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 12 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 7 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 7 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 6 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 6 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 0 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 0 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 10 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 10 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 0 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 3 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 3 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 19 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 18 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 49 Kbps |5gMAC| 8 Kbps |5gRLC| 8 Kbps |5gPDCP| 8 Kbps |IPA| 8 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 3 Kbps | 5gMAC Pad: 37 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 90 Kbps |5gMAC| 36 Kbps |5gRLC| 35 Kbps |5gPDCP| 35 Kbps |IPA| 35 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 5 Kbps | 5gMAC Pad: 47 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 20 Kbps |5gMAC| 1 Kbps |5gRLC| 1 Kbps |5gPDCP| 1 Kbps |IPA| 1 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 19 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 1349 Kbps |5gMAC| 1045 Kbps |5gRLC| 1041 Kbps |5gPDCP| 1041 Kbps |IPA| 1037 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 109 Kbps | 5gMAC Pad: 188 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 8 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 2089 Kbps |5gMAC| 1649 Kbps |5gRLC| 1644 Kbps |5gPDCP| 1644 Kbps |IPA| 1644 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 122 Kbps | 5gMAC Pad: 307 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 5760 Kbps |5gMAC| 5102 Kbps |5gRLC| 5078 Kbps |5gPDCP| 5078 Kbps |IPA| 5082 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 271 Kbps | 5gMAC Pad: 355 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 25377 Kbps |5gMAC| 24446 Kbps |5gRLC| 24360 Kbps |5gPDCP| 197038 Kbps |IPA| 197038 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 754 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 4 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 25389 Kbps |5gMAC| 24606 Kbps |5gRLC| 24533 Kbps |5gPDCP| 263460 Kbps |IPA| 263460 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 599 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 25666 Kbps |5gMAC| 24949 Kbps |5gRLC| 24876 Kbps |5gPDCP| 263397 Kbps |IPA| 263397 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 530 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 25075 Kbps |5gMAC| 24427 Kbps |5gRLC| 24312 Kbps |5gPDCP| 264583 Kbps |IPA| 264583 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 467 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 26093 Kbps |5gMAC| 25352 Kbps |5gRLC| 25273 Kbps |5gPDCP| 262857 Kbps |IPA| 262857 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 554 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 21364 Kbps |5gMAC| 20719 Kbps |5gRLC| 20567 Kbps |5gPDCP| 220986 Kbps |IPA| 220986 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 486 Kbps | 5gMAC Pad: 7 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 19346 Kbps |5gMAC| 18805 Kbps |5gRLC| 18410 Kbps |5gPDCP| 272254 Kbps |IPA| 272254 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 402 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 18873 Kbps |5gMAC| 18265 Kbps |5gRLC| 17873 Kbps |5gPDCP| 246484 Kbps |IPA| 246484 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 474 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 18415 Kbps |5gMAC| 17781 Kbps |5gRLC| 17365 Kbps |5gPDCP| 260372 Kbps |IPA| 260372 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 505 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 18431 Kbps |5gMAC| 17795 Kbps |5gRLC| 17390 Kbps |5gPDCP| 260378 Kbps |IPA| 260378 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 507 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 18628 Kbps |5gMAC| 17939 Kbps |5gRLC| 17557 Kbps |5gPDCP| 250435 Kbps |IPA| 250435 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 557 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 21666 Kbps |5gMAC| 21047 Kbps |5gRLC| 20746 Kbps |5gPDCP| 263057 Kbps |IPA| 263057 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 462 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 30328 Kbps |5gMAC| 29944 Kbps |5gRLC| 29846 Kbps |5gPDCP| 297848 Kbps |IPA| 296475 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 159 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 32824 Kbps |5gMAC| 32464 Kbps |5gRLC| 32363 Kbps |5gPDCP| 307565 Kbps |IPA| 308059 Kbps |AP | TPUT
+2020/7/31 03:16,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 116 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 30684 Kbps |5gMAC| 30361 Kbps |5gRLC| 30274 Kbps |5gPDCP| 295817 Kbps |IPA| 296553 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 94 Kbps | 5gMAC Pad: 2 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 23196 Kbps |5gMAC| 22847 Kbps |5gRLC| 22767 Kbps |5gPDCP| 241677 Kbps |IPA| 241934 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 148 Kbps | 5gMAC Pad: 33 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 32674 Kbps |5gMAC| 32338 Kbps |5gRLC| 32232 Kbps |5gPDCP| 310138 Kbps |IPA| 310138 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 93 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 32187 Kbps |5gMAC| 31833 Kbps |5gRLC| 31757 Kbps |5gPDCP| 305834 Kbps |IPA| 304282 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 115 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 32466 Kbps |5gMAC| 32149 Kbps |5gRLC| 32055 Kbps |5gPDCP| 303821 Kbps |IPA| 304736 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 75 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 31087 Kbps |5gMAC| 30772 Kbps |5gRLC| 30679 Kbps |5gPDCP| 303798 Kbps |IPA| 303681 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 76 Kbps | 5gMAC Pad: 9 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 16261 Kbps |5gMAC| 16075 Kbps |5gRLC| 16023 Kbps |5gPDCP| 198951 Kbps |IPA| 199405 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 28 Kbps | 5gMAC Pad: 40 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 30368 Kbps |5gMAC| 30121 Kbps |5gRLC| 30031 Kbps |5gPDCP| 300026 Kbps |IPA| 299944 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 15 Kbps | 5gMAC Pad: 2 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 33254 Kbps |5gMAC| 32952 Kbps |5gRLC| 32848 Kbps |5gPDCP| 306742 Kbps |IPA| 306693 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 57 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 32373 Kbps |5gMAC| 32097 Kbps |5gRLC| 32009 Kbps |5gPDCP| 304683 Kbps |IPA| 305114 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 36 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 30099 Kbps |5gMAC| 29776 Kbps |5gRLC| 29685 Kbps |5gPDCP| 291310 Kbps |IPA| 290986 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 88 Kbps | 5gMAC Pad: 14 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 22797 Kbps |5gMAC| 22508 Kbps |5gRLC| 22434 Kbps |5gPDCP| 274337 Kbps |IPA| 273616 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 89 Kbps | 5gMAC Pad: 38 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 32097 Kbps |5gMAC| 31782 Kbps |5gRLC| 31687 Kbps |5gPDCP| 305913 Kbps |IPA| 305970 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 75 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 32709 Kbps |5gMAC| 32410 Kbps |5gRLC| 32311 Kbps |5gPDCP| 306152 Kbps |IPA| 306072 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 56 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 29252 Kbps |5gMAC| 28840 Kbps |5gRLC| 28746 Kbps |5gPDCP| 288511 Kbps |IPA| 289580 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 170 Kbps | 5gMAC Pad: 35 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 7517 Kbps |5gMAC| 7406 Kbps |5gRLC| 7389 Kbps |5gPDCP| 69862 Kbps |IPA| 69862 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 19 Kbps | 5gMAC Pad: 35 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 71 Kbps |5gMAC| 25 Kbps |5gRLC| 25 Kbps |5gPDCP| 25 Kbps |IPA| 25 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 2 Kbps | 5gMAC Pad: 42 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 50 Kbps |5gMAC| 26 Kbps |5gRLC| 26 Kbps |5gPDCP| 26 Kbps |IPA| 26 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 23 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 0 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 81 Kbps |5gMAC| 46 Kbps |5gRLC| 46 Kbps |5gPDCP| 46 Kbps |IPA| 46 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 34 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c    931] ENL2DL   | NR | Last   2000 ms |DL 5gPHY| 0 Kbps |5gMAC| 0 Kbps |5gRLC| 0 Kbps |5gPDCP| 0 Kbps |IPA| 0 Kbps |AP | TPUT
+2020/7/31 03:17,[enl2_dl_qsh.c   1001] ENL2DL   | NR | Last   2000 ms | 5gPHY drop 0 Kbps | 5gMAC Pad: 0 Kbps | 5gMACData drop: 0 Kbps | 5gPDCP drop: 0 Kbps (FC 0 Kbps) | TPUT
